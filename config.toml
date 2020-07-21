@@ -9,7 +9,7 @@ facebook = "https://www.facebook.com/alex.cepoi.5"
 twitter = "https://twitter.com/alexcepoi"
 linkedin = "https://www.linkedin.com/in/alexcepoi"
 github = "https://github.com/alexcepoi"
-cvUrl = "https://storage.googleapis.com/alexcepoi-www-eu-west2.appspot.com/cv.pdf"
+cvUrl = "/cv.pdf"
 
 [[menu.main]]
 name = "Home"
