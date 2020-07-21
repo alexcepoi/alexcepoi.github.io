@@ -1,0 +1,7 @@
+{{ define "main" }}
+<object data="{{.Site.Params.CvUrl}}" type="application/pdf" class="pdf-frame">
+  <div class="centernote">
+    Cannot render pdf, download it <a href="{{.Site.Params.CvUrl}}">here</a>.
+  </div>
+</object>
+{{ end }}

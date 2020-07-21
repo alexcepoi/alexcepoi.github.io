@@ -1,0 +1,24 @@
+theme = "personal"
+disableHugoGeneratorInject = true
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+enableRobotsTXT = true
+
+[params]
+email = "alex.cepoi@gmail.com"
+facebook = "https://www.facebook.com/alex.cepoi.5"
+twitter = "https://twitter.com/alexcepoi"
+linkedin = "https://www.linkedin.com/in/alexcepoi"
+github = "https://github.com/alexcepoi"
+cvUrl = "https://storage.googleapis.com/alexcepoi-www-eu-west2.appspot.com/cv.pdf"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+pre = "<i class =\"glyphicon glyphicon-user\"></i>"
+weight = 1
+
+[[menu.main]]
+name = "CV"
+url = "/cv"
+pre = "<i class =\"glyphicon glyphicon-tasks\"></i>"
+weight = 2

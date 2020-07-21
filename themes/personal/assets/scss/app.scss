@@ -1,0 +1,99 @@
+/* general structure */
+html, body {
+	height: 100%;
+}
+
+body {
+    font-family: 'brandon-grotesque-regular', sans-serif;
+    padding: 0 !important;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+.navbar-static-top {
+    position: static !important;
+    margin: 0px !important;
+}
+
+.container {
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+footer {
+    position: relative;
+    margin-top: -20px;
+    height: 20px;
+    text-align: center;
+    background-color: #ededed;
+}
+
+
+/* wrappers */
+.content {
+    font-family: 'brandon-grotesque-light', sans-serif;
+    padding: 20px;
+}
+
+.centerpage {
+    padding-top: 30px;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.centernote {
+    padding-top: 30vh;
+    max-width: 480px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.mainpage {
+    h1 {
+        font-size: 34px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+        color: #444;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 28px;
+        color: #666;
+    }
+}
+
+
+/* custom pages */
+.social-bar {
+    .social {
+        display: inline;
+
+        &:before {
+            color: inherit;
+        }
+    }
+
+    a.social {
+        text-decoration: none;
+        color: #666;
+        &:hover {
+            color: #222;
+        }
+    }
+}
+
+.pdf-frame {
+    width: 100%;
+
+    height: -webkit-calc(#{"100vh - 70px"});
+    height: -moz-calc(#{"100vh - 70px"});
+    height: -o-calc(#{"100vh - 70px"});
+    height: calc(#{"100vh - 70px"});
+}
+
+.vcard {
+    text-align: center;
+}

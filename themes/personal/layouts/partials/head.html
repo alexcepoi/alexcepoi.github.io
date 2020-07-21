@@ -1,0 +1,27 @@
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="author" content="Alex Cepoi" />
+  <meta name="description" content="Alex Cepoi's Personal Homepage" />
+  <meta name="keywords" content="alex cepoi homepage" />
+  <meta name="Revisit-After" content="30 Days" />
+  <meta name="robots" content="all, index" />
+
+  <title>
+    Alex Cepoi &raquo; {{ .Title }}
+  </title>
+
+  <link rel="shortcut icon" href="/favicon.ico" />
+
+  <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  {{ $style := resources.Get "scss/all.scss" | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  {{ $app := resources.Get "js/app.js"  }}
+  {{ $analytics := resources.Get "js/analytics.js"  }}
+  {{ $js := slice $app $analytics | resources.Concat "js/all.js" | resources.Fingerprint "sha512" }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+</head>

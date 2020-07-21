@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="container">
+  <div class="content">
+    <div class="centerpage row">
+      <div class="mainpage col-md-12">
+        <h1>Hello, I'm Alex</h1>
+        <p>Professional software engineer by day, amateur cyclist and foil
+          fencer by... rest of day.</p>
+        <p>Currently living in London, UK.</p>
+
+        <p>For more information about my technical expertise, check out my
+          <a href="/cv">CV</a> and feel free to
+          <a href="mailto:{{.Site.Params.email}}">drop me a line</a>.</p>
+
+        <div class="social-bar">
+          <a href="mailto:{{.Site.Params.email}}" class="social e-mail"></a>
+          <a href="{{.Site.Params.Facebook}}" class="social facebook"></a>
+          <a href="{{.Site.Params.Twitter}}" class="social twitter"></a>
+          <a href="{{.Site.Params.Linkedin}}" class="social linked_in"></a>
+          <a href="{{.Site.Params.Github}}" class="social github"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
