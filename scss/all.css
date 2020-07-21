@@ -1,0 +1,274 @@
+/* general structure */
+html, body {
+  height: 100%; }
+
+body {
+  font-family: 'brandon-grotesque-regular', sans-serif;
+  padding: 0 !important; }
+
+.wrapper {
+  min-height: 100%; }
+
+.navbar-static-top {
+  position: static !important;
+  margin: 0px !important; }
+
+.container {
+  font-size: 16px;
+  padding: 0 10px; }
+
+footer {
+  position: relative;
+  margin-top: -20px;
+  height: 20px;
+  text-align: center;
+  background-color: #ededed; }
+
+/* wrappers */
+.content {
+  font-family: 'brandon-grotesque-light', sans-serif;
+  padding: 20px; }
+
+.centerpage {
+  padding-top: 30px;
+  max-width: 480px;
+  margin: 0 auto; }
+
+.centernote {
+  padding-top: 30vh;
+  max-width: 480px;
+  margin: 0 auto;
+  font-size: 30px; }
+
+.mainpage h1 {
+  font-size: 34px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  color: #444; }
+
+.mainpage p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #666; }
+
+/* custom pages */
+.social-bar .social {
+  display: inline; }
+  .social-bar .social:before {
+    color: inherit; }
+
+.social-bar a.social {
+  text-decoration: none;
+  color: #666; }
+  .social-bar a.social:hover {
+    color: #222; }
+
+.pdf-frame {
+  width: 100%;
+  height: -webkit-calc(100vh - 70px);
+  height: -moz-calc(100vh - 70px);
+  height: -o-calc(100vh - 70px);
+  height: calc(100vh - 70px); }
+
+.vcard {
+  text-align: center; }
+
+@font-face {
+  font-family: 'brandon-grotesque-light';
+  src: url("/fonts/brandon-grotesque-light.eot");
+  src: url("/fonts/brandon-grotesque-light.eot?#iefix") format("embedded-opentype"), url("/fonts/brandon-grotesque-light.woff") format("woff"), url("/fonts/brandon-grotesque-light.ttf") format("truetype"), url("/fonts/brandon-grotesque-light.svg#wf") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'brandon-grotesque-regular';
+  src: url("/fonts/brandon-grotesque-regular.eot");
+  src: url("/fonts/brandon-grotesque-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/brandon-grotesque-regular.woff") format("woff"), url("/fonts/brandon-grotesque-regular.ttf") format("truetype"), url("/fonts/brandon-grotesque-regular.svg#wf") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Glyphicons Social Regular';
+  src: url("/fonts/glyphicons-social-regular.eot");
+  src: url("/fonts/glyphicons-social-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/glyphicons-social-regular.woff") format("woff"), url("/fonts/glyphicons-social-regular.ttf") format("truetype"), url("/fonts/glyphicons-social-regular.svg#glyphicons_socialregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.social {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  color: #1d1d1b;
+  text-decoration: none;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle; }
+
+.social:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  margin: 0 5px 0 0;
+  font: 24px/1em 'Glyphicons Social Regular';
+  font-style: normal;
+  font-weight: normal;
+  color: #1d1d1b;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased; }
+
+.social.white:before {
+  color: #fff; }
+
+.social.pinterest:before {
+  content: "\E001"; }
+
+.social.dropbox:before {
+  content: "\E002"; }
+
+.social.google_plus:before {
+  content: "\E003"; }
+
+.social.jolicloud:before {
+  content: "\E004"; }
+
+.social.yahoo:before {
+  content: "\E005"; }
+
+.social.blogger:before {
+  content: "\E006"; }
+
+.social.picasa:before {
+  content: "\E007"; }
+
+.social.amazon:before {
+  content: "\E008"; }
+
+.social.tumblr:before {
+  content: "\E009"; }
+
+.social.wordpress:before {
+  content: "\E010"; }
+
+.social.instapaper:before {
+  content: "\E011"; }
+
+.social.evernote:before {
+  content: "\E012"; }
+
+.social.xing:before {
+  content: "\E013"; }
+
+.social.zootool:before {
+  content: "\E014"; }
+
+.social.dribbble:before {
+  content: "\E015"; }
+
+.social.deviantart:before {
+  content: "\E016"; }
+
+.social.read_it_later:before {
+  content: "\E017"; }
+
+.social.linked_in:before {
+  content: "\E018"; }
+
+.social.forrst:before {
+  content: "\E019"; }
+
+.social.pinboard:before {
+  content: "\E020"; }
+
+.social.behance:before {
+  content: "\E021"; }
+
+.social.github:before {
+  content: "\E022"; }
+
+.social.youtube:before {
+  content: "\E023"; }
+
+.social.skitch:before {
+  content: "\E024"; }
+
+.social.foursquare:before {
+  content: "\E025"; }
+
+.social.quora:before {
+  content: "\E026"; }
+
+.social.badoo:before {
+  content: "\E027"; }
+
+.social.spotify:before {
+  content: "\E028"; }
+
+.social.stumbleupon:before {
+  content: "\E029"; }
+
+.social.readability:before {
+  content: "\E030"; }
+
+.social.facebook:before {
+  content: "\E031"; }
+
+.social.twitter:before {
+  content: "\E032"; }
+
+.social.instagram:before {
+  content: "\E033"; }
+
+.social.posterous_spaces:before {
+  content: "\E034"; }
+
+.social.vimeo:before {
+  content: "\E035"; }
+
+.social.flickr:before {
+  content: "\E036"; }
+
+.social.last_fm:before {
+  content: "\E037"; }
+
+.social.rss:before {
+  content: "\E038"; }
+
+.social.skype:before {
+  content: "\E039"; }
+
+.social.e-mail:before {
+  content: "\E040"; }
+
+.social.vine:before {
+  content: "\E041"; }
+
+.social.myspace:before {
+  content: "\E042"; }
+
+.social.goodreads:before {
+  content: "\E043"; }
+
+.social.apple:before {
+  content: "\F8FF"; }
+
+.social.windows:before {
+  content: "\E045"; }
+
+.social.yelp:before {
+  content: "\E046"; }
+
+.social.playstation:before {
+  content: "\E047"; }
+
+.social.xbox:before {
+  content: "\E048"; }
+
+.social.android:before {
+  content: "\E049"; }
+
+.social.ios:before {
+  content: "\E050"; }
